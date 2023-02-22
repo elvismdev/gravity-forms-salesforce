@@ -1,0 +1,23 @@
+{
+    "name"        : "wpackagist-plugin/gravity-forms-salesforce",
+    "description" : "Integrate Your Forms with Salesforce",
+    "keywords"    : ["wordpress"],
+    "homepage"    : "https://gravityview.co",
+    "license"     : "GPL-2.0+",
+    "type"        : "wordpress-plugin",
+    "authors"     : [
+	{
+	    "name"     : "katzwebdesign",
+	    "homepage" : "https://gravityview.co"
+	}
+    ],
+    "require"     : {
+	"composer/installers" : "~1.0|~2.0",
+	"php"                 : ">=5.3.0"
+    },
+   "autoload": {
+        "classmap": [
+            "."
+        ]
+    }
+}
